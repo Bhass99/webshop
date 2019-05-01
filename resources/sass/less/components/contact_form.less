@@ -1,0 +1,69 @@
+
+@main-color: #6394F8;
+@light-text: #ABB0BE;
+@portrait: ~'screen and (min-width: 768px)';
+@landscape: ~'screen and (min-width: 992px)';
+@desktop: ~'screen and (min-width: 1200px)';
+@xxl: ~'screen and (min-width: 1800px)';
+
+.container{
+  h2{
+    font-weight: 700;
+  }
+  .row{
+    .row-contact{
+      width: 100%;
+      display: flex;
+      margin-bottom: 5%;
+      .col-8{
+
+        .form-contact{
+          background-color: #f6f6f7;
+          padding: 10px;
+
+          label[for="female"]{
+            margin-left: 2%;
+          }
+          input{
+            border-radius: unset;
+            border: 1px solid #bcd;
+          }
+        }
+      }
+      .col-4{
+        .right-contact{
+          padding:15px 20px 30px 20px;
+          height: auto;
+          background-color: black;
+          opacity: 0.8;
+          h3{
+            color: #d40077;
+          }
+          p{
+            line-height: 1.5;
+            color: white;
+            margin-left: 5%;
+          }
+          a{
+            font-size: 24px;
+          }
+          .contact-facebook{
+            margin-top: 10%;
+            display: flex;
+
+          }
+          .contact-instagram{
+            display: flex;
+          }
+          .contact-email{
+            display: flex;
+          }
+          .contact-phone{
+            display: flex;
+          }
+        }
+      }
+    }
+
+  }
+}

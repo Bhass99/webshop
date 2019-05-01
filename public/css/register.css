@@ -1,0 +1,162 @@
+#container-fluid-register {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  #container-fluid-register {
+    background-color: gainsboro;
+  }
+}
+@media screen and (min-width: 992px) {
+  #container-fluid-register {
+    margin-top: -0.2%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #container-fluid-register .container {
+    margin-bottom: 14%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #container-fluid-register .container {
+    margin-bottom: 3%;
+  }
+}
+.register-main {
+  margin: 5% 0 ;
+}
+@media screen and (min-width: 768px) {
+  .register-main {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: white;
+    padding: 3%;
+    border-bottom: 1px solid #bcd;
+    border-top: 1px solid #bcd;
+  }
+}
+@media screen and (min-width: 992px) {
+  .register-main {
+    margin-left: 17%;
+    margin-right: 16%;
+  }
+}
+.register-main .card-register {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #f7f7f7;
+}
+@media screen and (min-width: 768px) {
+  .register-main .card-register {
+    border: unset;
+    background-color: unset;
+  }
+}
+.register-main .card-register p {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 2%;
+  font-weight: bold;
+  font-family: Harriet, TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+@media screen and (min-width: 992px) {
+  .register-main .card-register p {
+    font-size: 1.6em;
+  }
+}
+.register-main .register-form {
+  margin: 3%;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form {
+    margin: 3% 15% 3% 0;
+  }
+}
+.register-main .register-form input {
+  border-radius: unset;
+  border: 1px solid #bcd;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form input {
+    width: 87%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .register-main .register-form input {
+    height: 35px;
+  }
+}
+.register-main .register-form label[for="gender"] {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form label[for="gender"] {
+    display: unset;
+  }
+}
+.register-main .register-form input[name="gender"] {
+  height: unset;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form input[name="gender"] {
+    width: 4%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form input[value="male"] {
+    margin-left: -7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form label {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.register-main .register-form .register-form-buttons {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form .register-form-buttons {
+    display: inline-block;
+  }
+}
+.register-main .register-form .register-form-buttons .login-register {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  margin: 4% 0;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form .register-form-buttons .login-register {
+    margin-left: 5%;
+    margin-right: 1%;
+  }
+}
+.register-main .register-form .register-form-buttons .btn-cancel {
+  color: #000;
+  border-color: #124;
+}
+.register-main .register-form .register-form-buttons button {
+  width: 100%;
+  border-radius: unset;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .register-main .register-form .register-form-buttons button {
+    width: 33%;
+    float: right;
+    margin: 4% 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .register-main .register-form .register-form-buttons button {
+    height: 40px;
+    font-size: 17px;
+  }
+}

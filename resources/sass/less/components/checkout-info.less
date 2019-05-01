@@ -1,0 +1,103 @@
+@portrait: ~'screen and (min-width: 768px)';
+@landscape: ~'screen and (min-width: 992px)';
+@desktop: ~'screen and (min-width: 1200px)';
+@xxl: ~'screen and (min-width: 1800px)';
+@header-fontfam: Harriet,TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+@button-color: rgb(255,176,59);
+
+.personal-info{
+    border-bottom: 2px solid @button-color;
+    margin-bottom: 3%;
+
+    h4{
+        margin-bottom: 5%;
+        text-transform: uppercase;
+        color: @button-color;
+    }
+}
+
+
+
+.shipping-address{
+    border-bottom: 2px solid @button-color;
+    margin-bottom: 3%;
+     h4{
+        margin-bottom: 5%;
+        text-transform: uppercase;
+        color: @button-color;
+    }
+}
+.checkout-info{
+    display: flex;
+
+    label{
+        width: 40%;
+    }
+    label::after{
+        content: ' *';
+        color:red;
+    }
+    label[for=phone_number]::after{
+        content: '';
+    }
+    input{
+        border-radius: unset;
+    }
+    
+}
+.radioInputs{
+    width: 100%;
+}
+
+#checkout-info{
+    padding: 2% 0;
+
+    .col-sm-4{
+        
+        .overview{
+            .overview-products{
+                padding-bottom: 10%;
+                p:nth-child(even){
+                    text-align: right;
+                    float: right;            
+                }
+                p:nth-child(even)::before{
+                    content: '€ '
+                }
+                    p:nth-child(odd){
+                    float: left;
+                    width: 50;    
+                }
+                p:nth-child(odd):first-letter{
+                    text-transform: uppercase;
+                }
+
+                h4{
+                margin-bottom: 5%;
+                text-transform: uppercase;
+                color: @button-color;
+                }
+                .overview-products-info{
+                    overflow: hidden;
+                    border-bottom: 2px solid @button-color;
+                    padding-bottom: 5%;
+                }
+                .overview-products-subTotal{
+                    margin-top: 5%;
+                    padding-bottom: 5%;
+                    overflow: hidden;
+                    border-bottom: 2px solid @button-color;        
+                }
+                .overview-products-total{
+                    margin-top: 5%;                    
+                }
+                
+              
+            }
+
+
+            
+        }
+    }
+}
+
